@@ -85,6 +85,7 @@ const Game : React.FC = () => {
   const renderItem = ({item, ...obj }) => {
     return (
       <CardItem
+      testID={'cardItem'}
       card={item}
       onCardClicked={onCardItemClicked}
       cardsRef={cardsRef}
